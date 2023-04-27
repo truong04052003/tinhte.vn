@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+[class*="col-"] {
+  border: none;
+  float: left;
+  padding: 15px;
+}
+
+body {
+  color: #2d3748;
+  font-family: "Lato", Arial;
+  font-family: "Lato", Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.tinhte-text {
+  margin-top: -45px;
+}
+.tinhte-text__name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 12px;
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 47px;
+}
+
+.tinhte-text__subtitle {
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 7px;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+  margin-top: 3px;
+  text-align: justify;
+  padding-left: 57px;
+}
+img.logo {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+}
+.menu-wrapper {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: -47px;
+}
+
+.menu-icon {
+  position: relative;
+  width: 100%;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.search {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+}
+
+.search-wrapper {
+  width: 100%;
+  position: relative;
+}
+form.compact-search {
+  padding: 0px 16px;
+  border-radius: 50px;
+  width: 100%;
+  height: 40px;
+  background-color: #e5e6ed;
+}
+
+button.search-icon {
+  width: 35px;
+  height: 35px;
+  opacity: 0.5;
+  border: none;
+  background-color: #e5e6ed;
+  padding-top: 9px;
+  padding-left: 3px;
+}
+
+input.search-textbox {
+  width: 80%;
+  max-width: 400px;
+  margin-left: 7px;
+  position: absolute;
+  margin-top: 12px;
+  border: none;
+  background-color: #e5e6ed;
+  margin-left: -2px;
+}
+.burger-menu {
+  padding: 4px 8px;
+  border-radius: 40px;
+  background-color: #e5e6ed;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: flex;
+  width: 100px;
+  float: right;
+}
+
+/* PHẦN MAIN  */
+.header-spacex {
+  margin-bottom: 12px;
+  margin-top: 12px;
+  border-bottom: 1px solid #e5e6ec;
+  padding: 24px 0;
+}
+.name-spacex {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+.follow-spacex {
+  min-width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 12px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background-color: #0768ea;
+  color: #ffffff;
+  border: none;
+}
+/* phân trang  */
+.pagination-spacex {
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+.pagination {
+  position: relative;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  font-size: 0.8rem;
+}
+.pagination .pagination-main {
+  flex-flow: wrap;
+  display: flex;
+}
+.pagination .pagination-main .one {
+  border-radius: 3px;
+  background-color: #15202b;
+  border: 1px solid #15202b;
+  color: #ffffff;
+  opacity: 1;
+}
+.pagination .pagination-main .page-main {
+  min-width: 26px;
+  height: 26px;
+  padding: 0 5px;
+  line-height: 24px;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 3px 3px 0;
+  outline: none;
+}
+.pagination .pagination-main .page-number {
+  min-width: 26px;
+  height: 26px;
+  padding: 0 5px;
+  line-height: 24px;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid #15202b;
+  color: #222b45;
+  opacity: 0.5;
+  margin: 0 3px 3px 0;
+  outline: none;
+}
