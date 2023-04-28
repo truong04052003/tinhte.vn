@@ -569,9 +569,7 @@ a.name-menu-page {
   position: relative;
 }
 
-.col-main {
-  overflow: hidden;
-}
+
 
 .section-heading {
   color: #2d3748;
@@ -1367,9 +1365,6 @@ img.main-img-header {
 }
 
 .category-carousel {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   overflow-x: auto;
 }
@@ -1540,6 +1535,7 @@ a.title-end {
   padding: 0 20px;
   width: 100%;
   margin: 0 auto;
+  
 }
 
 .login-containers {
@@ -2008,21 +2004,17 @@ li.all-yt {
   background-color: transparent;
   transition: background-color 0.5s ease;
 }
+li.all-yt.active-yt {
+  background-color: #032a5e;
+}
 
 .videoRow {
   overflow: hidden;
   width: 100%;
   outline: none;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   border: none;
-  background-color: #01152f;
   background-color: transparent;
   transition: background-color 0.5s ease;
 }
@@ -2375,21 +2367,88 @@ img.img-community {
   width: 30px;
 }
 /* footer  */
-.footer {
+.footer-ft {
   color: #222b45;
   background-color: #f1f1f1;
 }
-/* .shortcuts {
+.footer{
+  clear: both;
+}
+a.title-ft {
+  color: #ffffff;
+}
+.shortcuts {
   background: #1570ef;
   color: #ffffff;
-} */
+}
 .footer-main {
   max-width: 1224px;
   margin: auto;
-  padding: 9px 12px;
+  padding: 9px 0px;
   overflow: hidden;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
+  margin-left: 120px;
   text-transform: uppercase;
+}
+.footer-list {
+  margin: 0 -24px;
+}
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item-ft {
+  padding: 9px 24px;
+}
+.item-ft.active-ft {
+  color: white;
+}
+.main-link {
+  padding: 18px 0;
+}
+.main-link {
+  max-width: 1224px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item-link {
+  padding: 0px 12px;
+  margin-left: -30px;
+}
+.item-link {
+  flex: 1 1 auto;
+}
+.main-ft {
+  line-height: 24px;
+}
+.heading-ft {
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 39px;
+}
+.list-ft {
+  margin-top: 12px;
+}
+.info-license {
+  border-top: solid 2px #e5e6ec;
+}
+.main-license {
+  max-width: 1224px;
+  margin: auto;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+}
+.item-license {
+  padding: 6px 12px;
+}
+a.dark-theme-icon {
+  color: #222b45;
 }
