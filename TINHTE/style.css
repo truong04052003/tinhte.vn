@@ -470,7 +470,6 @@ a.name-menu-page {
   bottom: 0;
   left: 0;
   right: 0;
-  /* position: absolute; */
   background-image: var(--mask-background);
   opacity: 0.8;
   overflow: hidden;

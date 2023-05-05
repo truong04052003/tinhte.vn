@@ -96,12 +96,12 @@ img.logo {
   width: 40px;
   height: 40px;
 }
+a.name-title:hover {
+  color: #3986ee;
+}
 .menu-wrapper {
   position: relative;
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -113,16 +113,10 @@ img.logo {
   position: relative;
   width: 100%;
   font-size: 15px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
@@ -188,7 +182,7 @@ svg.logo-menu-header {
 }
 .thread-camera {
   position: relative;
-width: 755px;
+  width: 755px;
 }
 .thread-view {
   position: relative;
@@ -209,11 +203,9 @@ width: 755px;
   font-weight: 500;
   font-size: 0.9rem;
   display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: -11px;
 }
 .next-page .forum {
   display: flex;
@@ -250,12 +242,11 @@ width: 755px;
 }
 .thread-info {
   position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 17px;
   display: flex;
-  -webkit-box-pack: justify;
   justify-content: space-between;
   align-items: center;
-  -webkit-box-align: center;
+  margin-top: -8px;
 }
 .thread-view.content-camera {
   font-size: 15px;
@@ -270,7 +261,6 @@ width: 755px;
 }
 .thread-title {
   line-height: 1.2;
-  margin-bottom: 8px;
 }
 .thread-info .thread-info-left,
 .thread-info .thread-info-right {
@@ -330,36 +320,25 @@ width: 755px;
   margin-bottom: 6px;
   display: flex;
 }
+img.tichxanh {
+  width: 15px;
+  background-color: #0768ea;
+  border-radius: 100%;
+  margin-left: 4px;
+  margin-right: 1px;
+  margin-bottom: -1px;
+  font-weight: 600;
+}
+.name-follow a {
+  color: #0768ea;
+}
 .thread-info .date-cmt-view {
   color: #222b45;
   font-size: 0.8rem;
   flex-flow: wrap;
   display: flex;
 }
-.name-follow i.dau {
-  color: #0768ea;
-  margin-left: 7px;
-}
-.fa,
-.far,
-.fas {
-  font-family: Font Awesome\5 Free;
-}
-.fa,
-.fab,
-.fal,
-.far,
-.fas {
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-}
-.green-area:before {
-  content: "\f058";
-}
+
 .follow-button {
   margin-left: 12px;
   font-size: 12px;
@@ -367,6 +346,8 @@ width: 755px;
   border-radius: 12px;
   color: #f1f1f1;
   background-color: #0768ea;
+  border: none;
+  height: 25px;
 }
 .thread-info .date-cmt-view .comment-cmt {
   margin: 0 0px;
@@ -386,23 +367,25 @@ width: 755px;
 }
 .bookmark-button {
   display: flex;
-  -webkit-box-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  flex-direction: row;
+  border: none;
+  background-color: transparent;
 }
 .icon-button {
   width: 40px;
   height: 40px;
-  overflow: hidden;
   margin: 0 auto;
   outline: none;
+}
+button.logo-button-bell {
+  border: none;
+  background-color: transparent;
 }
 svg.svg-icon {
   width: 100%;
   height: 100%;
   transform: translate3d(0px, 0px, 0px);
+  margin-left: 18px;
 }
 .notification-logo {
   display: flex;
@@ -496,8 +479,8 @@ svg.svg-icon {
   margin: auto;
   width: 740px;
   padding-top: 68px;
-    height: 680px;
-    padding-bottom: 68px;
+  height: 680px;
+  padding-bottom: 68px;
 }
 .information-body {
   font-size: 16px;
@@ -537,6 +520,10 @@ svg.svg-icon {
 .posts .total-like {
   margin-right: 8px;
 }
+.like-post {
+  background-color: transparent;
+  border: none;
+}
 .total-like {
   color: #222b45;
   display: flex;
@@ -544,8 +531,7 @@ svg.svg-icon {
 }
 .total-like img.img-like {
   width: 25px;
-  margin-left: -13px;
-  margin-right: 4px;
+  margin-left: -8px;
   vertical-align: middle;
 }
 .modal {
@@ -573,6 +559,8 @@ svg.svg-icon {
   -webkit-box-pack: center;
   justify-content: center;
   display: flex;
+    background-color: transparent;
+    border: none;
 }
 .menu {
   font-size: 13px;
@@ -665,7 +653,6 @@ svg.svg-icon {
   -webkit-box-pack: center;
   justify-content: center;
   cursor: pointer;
-  
 }
 .posts .thread-like .reactions {
   min-width: 80px;
@@ -716,11 +703,9 @@ svg.svg-icon {
   width: 25px;
 }
 span.reaction-text {
-  color: rgb(26, 180, 190);
+  color: #606670;
 }
-.reactions .reaction-text.reacted {
-  font-weight: 700;
-}
+
 .thread-share .thread-share-button {
   position: relative;
   width: 100%;
@@ -839,10 +824,12 @@ span.reaction-text {
 }
 /*xu hướng*/
 .trend-title {
-  color: #2d3748;
-  font-size: 18px;
-  font-weight: 700;
-  margin: 0 0 16px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hot-tags {
+  margin-bottom: 10px;
 }
 .tags {
   display: flex;
@@ -850,7 +837,7 @@ span.reaction-text {
   flex-wrap: wrap;
 }
 .tag {
-  background-color: #98C456;
+  background-color: #98c456;
   font-size: 18px;
   font-weight: 700;
   padding: 6px 12px;
@@ -862,16 +849,16 @@ span.reaction-text {
   color: white;
 }
 .tag:nth-child(2) {
-  background-color: #65CECF;
+  background-color: #65cecf;
 }
 .tag:nth-child(3) {
-  background-color: #D25735;
+  background-color: #d25735;
 }
 .tag:nth-child(4) {
-  background-color: #F3C144;
+  background-color: #f3c144;
 }
 .tag:nth-child(5) {
-  background-color: #9C2E83;
+  background-color: #9c2e83;
 }
 .right-camera {
   width: 340px;
@@ -882,6 +869,55 @@ span.reaction-text {
 .right-camera {
   padding-left: 20px;
   padding-right: 20px;
+}
+.posts-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.featureds {
+  margin-bottom: 10px;
+}
+li.feature-li {
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+.thumb-structure .title-post {
+  flex: 0 0 50%;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.thumb-img {
+  border-radius: 6px;
+  height: 0px;
+  padding-top: 61.9%;
+}
+.thumb-img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: #e5e6ec;
+  /* border: 1px solid #e5e6ed; */
+}
+img.img-camera-post {
+  display: block;
+  width: 140px;
+  height: 88px;
+  position: absolute;
+  margin-left: -40px;
+  border-radius: 6px;
+}
+p.title-post {
+  font-size: 14px;
+  margin-top: -5px;
+  padding-left: 33px;
+  margin-left: 77px;
+  color: #2d3748;
 }
 /*mũi tên*/
 .button-scroll {
