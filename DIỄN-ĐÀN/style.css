@@ -264,7 +264,7 @@ svg.logo-menu-header {
 .title-text {
   color: #222b45;
   padding: 1rem 0px;
-  font-size: 32px;
+  font-size: 16px;
   font-weight: 700;
   display: flex;
 }
@@ -361,13 +361,19 @@ svg.copy-svg {
 .bell-action .logo-button-bell {
   color: #222b45;
 }
-.fa, .far, .fas {
-  font-family: Font Awesome\ 5 Free;
+.fa,
+.far,
+.fas {
+  font-family: Font Awesome\5 Free;
 }
 .far {
-    font-weight: 400;
+  font-weight: 400;
 }
-.fa, .fab, .fal, .far, .fas {
+.fa,
+.fab,
+.fal,
+.far,
+.fas {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   font-style: normal;
@@ -383,44 +389,47 @@ svg.copy-svg {
   margin-bottom: 1rem;
 }
 .rules-quick-view .rule-quick-header {
-    display: flex;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    align-items: center;
-    margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
 .rules-quick-view .rule-quick-header .rule-quick-text {
-    font-size: 20px;
-    font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
 }
 .rules-quick-view .rule-quick-header .quick-button {
-    border: none;
-    padding: 5px 12px;
-    border-radius: 20px;
-    background-color: #e4e4e4;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 20px;
+  background-color: #e4e4e4;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
 }
 span.toggle-button {
   color: #6c6c6c;
 }
 .rules-quick-view .rule-quick-header .quick-button i {
-    margin-left: 5px;
-    color: #6c6c6c;
+  margin-left: 5px;
+  color: #6c6c6c;
 }
-.fa, .fas {
+.fa,
+.fas {
   font-weight: 900;
 }
-.fa, .far, .fas {
-    font-family: Font Awesome\ 5 Free;
+.fa,
+.far,
+.fas {
+  font-family: Font Awesome\5 Free;
 }
 .fa-angle-up:before {
-    content: "\f106";
+  content: "\f106";
 }
 .rules-quick-view .anchor {
   margin: 10px 0;
@@ -431,8 +440,242 @@ span.toggle-button {
   line-height: 25px;
 }
 .body-forum * {
-    background: initial;
-    appearance: initial;
+  background: initial;
+  appearance: initial;
+}
+.tinhte-criteria.tinhte-criteriaH2 {
+  font-size: 120%;
+}
+.body-forum ul {
+  list-style: initial;
+  padding-left: 30px;
+}
+.body-forum b {
+  font-weight: bold;
+}
+.body-forum a {
+  color: #0768ea;
+}
+.body-forum ol,
+.body-forum ul {
+  margin: 8px 0 10px;
+}
+.body-forum li {
+  margin-bottom: 5px;
+}
+.count-action {
+  color: #606670;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.count-action.border {
+  padding: 8px 0;
+  border-top: 1px solid #e5e6ec;
+  border-bottom: 1px solid #e5e6ec;
+}
+.trending-outstanding {
+  padding: 20px 0 32px 0;
+}
+.count-action-left {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.count-action-right {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.featured-posts .total-reactions {
+  margin-right: 8px;
+}
+.total-reactions {
+  color: #222b45;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.modal {
+  position: relative;
+}
+.total-reactions img.img-love:first-child {
+  margin-left: 0;
+}
+.total-reactions img.img-love {
+  width: 25px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.featured-posts .total-reactions:after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #606670;
+  margin-left: 5px;
+}
+.dots-button {
+  margin-right: 12px;
+}
+.menu-dot {
+  position: relative;
+  width: 100%;
+}
+.menu-trigger-dot {
+  height: auto;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  display: flex;
+}
+.menu-trigger-dot > span.dot {
+  height: 2px;
+  width: 2px;
+  border-radius: 15px;
+  margin: 0 1.5px;
+  background-color: #00000073;
+  transform: scale(1.5);
+}
+.like,
+.comment {
+  width: 33%;
+  padding: 10px;
+  border-radius: 4px;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.share {
+  width: 33%;
+  color: #606670;
+  border-radius: 3px;
+  padding: 10px;
+  height: 42px;
+  outline: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.featured-posts .like .reactions {
+  min-width: 80px;
+}
+.reactions {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+  width: 33.33%;
+}
+.reaction-btn {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+}
+.icon {
+  margin-right: 8px;
+  width: 25px;
+}
+.like svg,
+.comment svg {
+  display: block;
+}
+.icon svg,
+.icon img {
+  width: 25px;
+}
+.comment svg {
+  margin-right: 10px;
+}
+.menu-share-sr {
+  position: relative;
+  width: 100%;
+}
+.share .share-button {
+  position: relative;
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.share .share-button .icon {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.share .share-button .text {
+  white-space: nowrap;
+}
+.trending-outstanding {
+  padding: 20px 0 32px 0;
+}
+.header-outstanding {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.threads-outstanding {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
+}
+.header-outstanding .section-outstanding {
+  margin-bottom: 0;
+}
+.section-outstanding {
+  color: #2d3748;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 16px;
+}
+.thread {
+  padding: 16px 12px 0;
+  flex: 0 0 50%;
+  display: flex;
+}
+.index-outstanding {
+  color: #98a2b3;
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1;
+  flex: 0 0 64px;
+}
+.outstanding-content {
+  flex: 1 1 auto;
+}
+.outstanding-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  color: #2d3748;
+}
+.name-outstanding {
+  color: #2d3748;
+  font-size: 13px;
+  line-height: 18px;
+}
+p.criteria {
+  color: #2d3748;
 }
 /* footer  */
 .footer-ft {
