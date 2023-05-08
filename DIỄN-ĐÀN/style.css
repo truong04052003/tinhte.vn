@@ -2,7 +2,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
+body {
+  background-color: #F2F4F7;
+}
 .col-1 {
   width: 8.33%;
 }
@@ -164,7 +166,6 @@ svg.logo-menu-header {
 }
 .forum-page {
   padding: 0 20px;
-  margin: 24px auto 0 auto;
   border-radius: 8px;
   max-width: none;
 }
@@ -175,14 +176,17 @@ svg.logo-menu-header {
 .section-forum {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 162px;
+  float: left;
+  background-color: #FFFFFF;
 }
 .left-post {
   flex: 1 1 0;
 }
 .left-post {
-  padding-left: 20px;
+  padding-left: 5px;
   padding-right: 20px;
-  width: 793px;
+  width: 755px;
 }
 .right-post {
   width: 340px;
@@ -202,7 +206,7 @@ button.total-anh {
 }
 .thread-view {
   position: relative;
-  width: 765px;
+  width: 755px;
   background-color: #ffffff;
   word-wrap: break-word;
   border-radius: 3px;
@@ -213,6 +217,10 @@ button.total-anh {
 }
 .thread-view-content {
   position: relative;
+  background-color: #FFFFFF;
+}
+main.main-forum {
+  background-color: #FFFFFF;
 }
 .thread-support {
   position: relative;
@@ -410,12 +418,9 @@ button.logo-button-bell {
   border-radius: 8px;
   margin-bottom: 1rem;
   height: 255px;
-<<<<<<< HEAD
 }
 ol.conten-rule {
   padding-left: 0px;
-=======
->>>>>>> 9031ed0526d848d9b24926d2acb9c6db181d9d81
 }
 .rules-quick-view .rule-quick-header {
   display: flex;
@@ -430,7 +435,7 @@ ol.conten-rule {
 .rules-quick-view .rule-quick-header .rule-quick-text {
   font-size: 20px;
   font-weight: 700;
-  margin-top: 0px;
+  margin-top: 20px;
 }
 .rules-quick-view .rule-quick-header .quick-button {
   border: none;
@@ -442,6 +447,11 @@ ol.conten-rule {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
+}
+img.quick-view {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
 }
 li.rule-li {
   margin-top: -5px;
@@ -726,6 +736,7 @@ span.toggle-button {
 }
 p.criteria {
   color: #2d3748;
+  font-weight: 500;
 }
 .related-similar-cd {
   position: relative;
@@ -769,6 +780,7 @@ p.criteria {
   flex-direction: column;
   box-shadow: 0 1px 4px 0 rgba(102,98,98,0.4);
   border-radius: 8px;
+  height: 255px;
 }
 .image-similar {
   position: relative;
@@ -779,9 +791,7 @@ p.criteria {
   border-top-right-radius: 8px;
 }
 .similar-info {
-  width: 100%;
-  height: 100%;
-  padding: 10px 10px 0 10px;
+  padding: 0px 10px 0 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -797,6 +807,102 @@ p.criteria {
   margin-top: 0.25rem;
   margin-bottom: 10px;
   font-size: 14px;
+  color: #2d3748;
+}
+
+.trend-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.hot-tags {
+  margin-bottom: 10px;
+}
+.tags {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.tag {
+  background-color: #98c456;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin: 0 5px 5px 0;
+  white-space: nowrap;
+}
+.tag a {
+  color: white;
+}
+.tag:nth-child(2) {
+  background-color: #65cecf;
+}
+.tag:nth-child(3) {
+  background-color: #d25735;
+}
+.tag:nth-child(4) {
+  background-color: #f3c144;
+}
+.tag:nth-child(5) {
+  background-color: #9c2e83;
+}
+.right-camera {
+  width: 340px;
+  position: absolute;
+  right: 8%;
+  margin-right: 3px;
+}
+.right-camera {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.posts-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.featureds {
+  margin-bottom: 10px;
+}
+li.feature-li {
+  overflow: hidden;
+  margin-bottom: 44px;
+}
+.thumb-structure .title-post {
+  flex: 0 0 50%;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.thumb-img {
+  border-radius: 6px;
+  height: 0px;
+  padding-top: 61.9%;
+}
+.thumb-img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: #e5e6ec;
+}
+img.img-camera-post {
+  display: block;
+  width: 140px;
+  height: 88px;
+  position: absolute;
+  margin-left: -40px;
+  border-radius: 6px;
+}
+p.title-post {
+  font-size: 14px;
+  padding-left: 33px;
+  margin-left: 77px;
+  color: #2d3748;
 }
 /* footer  */
 .footer-ft {
