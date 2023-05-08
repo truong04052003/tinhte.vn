@@ -368,7 +368,9 @@ img.img-tt-spacex {
   position: absolute;
   object-fit: cover;
 }
-
+.footer {
+  clear: both;
+}
 /* FOOTER  */
 .footer {
   color: #222b45;
