@@ -197,7 +197,7 @@ svg.logo-menu-header {
 }
 .thread-view {
   position: relative;
-  width: 100%;
+  width: 765px;
   background-color: #ffffff;
   word-wrap: break-word;
   border-radius: 3px;
@@ -250,7 +250,6 @@ svg.logo-menu-header {
   align-items: center;
 }
 .rules-quick-view {
-  width: 100%;
   padding: 1rem;
   background-color: #f2f4f7;
   border-radius: 8px;
@@ -387,6 +386,10 @@ svg.copy-svg {
   background-color: #f2f4f7;
   border-radius: 8px;
   margin-bottom: 1rem;
+  height: 255px;
+}
+ol.conten-rule {
+  padding-left: 0px;
 }
 .rules-quick-view .rule-quick-header {
   display: flex;
@@ -396,6 +399,7 @@ svg.copy-svg {
   -webkit-box-align: center;
   align-items: center;
   margin-bottom: 0.5rem;
+  height: 30px;
 }
 .rules-quick-view .rule-quick-header .rule-quick-text {
   font-size: 20px;
@@ -676,6 +680,77 @@ span.toggle-button {
 }
 p.criteria {
   color: #2d3748;
+}
+.related-similar-cd {
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.similar-title {
+  position: relative;
+  color: #2d3748;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+}
+.related-similar-container {
+  margin: 0 -8px;
+  display: flex;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  flex-direction: row;
+}
+.related-similar {
+  position: relative;
+  width: 25%;
+  margin: 0.75rem 0;
+}
+.related-similar .container {
+  position: relative;
+  padding: 0 8px;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  flex-direction: row;
+}
+.related-similar .container .related-similar-img {
+  width: 180px;
+  display: flex;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  flex-direction: column;
+  box-shadow: 0 1px 4px 0 rgba(102,98,98,0.4);
+  border-radius: 8px;
+}
+.image-similar {
+  position: relative;
+  width: 180px;
+    height: 110px;
+  padding-bottom: 7%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.similar-info {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.similar-info-author {
+  color: #0768ea;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+.similar-info-title {
+  margin-top: 0.25rem;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 /* footer  */
 .footer-ft {
