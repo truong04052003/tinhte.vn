@@ -5,6 +5,37 @@
 body {
   background-color: #F2F4F7;
 }
+/* cuộn  */
+.button-scroll {
+  border-radius: 8px;
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  bottom: 5px;
+  right: 5px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #e5e6ed;
+  padding: 0;
+}
+.fas-scroll {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  position: absolute;
+  margin: -8px 0px 0px -15px;
+  width: 30px;
+}
+img.image-scroll {
+  width: 30px;
+}
+
 .col-1 {
   width: 8.33%;
 }
