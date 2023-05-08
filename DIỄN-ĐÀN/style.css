@@ -182,6 +182,7 @@ svg.logo-menu-header {
 .left-post {
   padding-left: 20px;
   padding-right: 20px;
+  width: 793px;
 }
 .right-post {
   width: 340px;
@@ -189,6 +190,10 @@ svg.logo-menu-header {
 .right-post {
   padding-left: 20px;
   padding-right: 20px;
+}
+button.total-anh {
+  border: none;
+  background-color: transparent;
 }
 .thread-view-forum {
   position: relative;
@@ -226,6 +231,7 @@ svg.logo-menu-header {
 }
 .thread-support .support:last-child {
   font-weight: 700;
+  color: #2d3748;
 }
 .thread-support .support {
   position: relative;
@@ -248,6 +254,7 @@ svg.logo-menu-header {
   justify-content: space-between;
   -webkit-box-align: center;
   align-items: center;
+  margin-top: -17px;
 }
 .rules-quick-view {
   padding: 1rem;
@@ -266,6 +273,7 @@ svg.logo-menu-header {
   font-size: 16px;
   font-weight: 700;
   display: flex;
+  margin-top: -25px;
 }
 .rules-info .info-left,
 .rules-info .info-right {
@@ -311,10 +319,17 @@ svg.logo-menu-header {
 .follow-button {
   margin-left: 12px;
   font-size: 12px;
-  padding: 3px 12px;
+  padding: 5px 12px;
   border-radius: 12px;
   color: #f1f1f1;
   background-color: #0768ea;
+  border: none;
+}
+a.name {
+  color: #0768ea;
+}
+a.avt-info {
+  margin-top: 7px;
 }
 .rules-info .information-date .comment-info:before,
 .rules-info .information-date .view:before {
@@ -345,6 +360,8 @@ svg.logo-menu-header {
   -webkit-box-pack: center;
   justify-content: center;
   flex-direction: row;
+  border: none;
+  background-color: transparent;
 }
 .copy {
   width: 40px;
@@ -356,6 +373,12 @@ svg.copy-svg {
   width: 100%;
   height: 100%;
   transform: translate3d(0px, 0px, 0px);
+  margin-left: 18px;
+  margin-top: -2px;
+}
+button.logo-button-bell {
+  background-color: transparent;
+  border: none;
 }
 .bell-action .logo-button-bell {
   color: #222b45;
@@ -387,9 +410,12 @@ svg.copy-svg {
   border-radius: 8px;
   margin-bottom: 1rem;
   height: 255px;
+<<<<<<< HEAD
 }
 ol.conten-rule {
   padding-left: 0px;
+=======
+>>>>>>> 9031ed0526d848d9b24926d2acb9c6db181d9d81
 }
 .rules-quick-view .rule-quick-header {
   display: flex;
@@ -404,6 +430,7 @@ ol.conten-rule {
 .rules-quick-view .rule-quick-header .rule-quick-text {
   font-size: 20px;
   font-weight: 700;
+  margin-top: 0px;
 }
 .rules-quick-view .rule-quick-header .quick-button {
   border: none;
@@ -415,6 +442,13 @@ ol.conten-rule {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
+}
+li.rule-li {
+  margin-top: -5px;
+}
+ol.conten-rule {
+  padding-left: 0px;
+  color: #2d3748;
 }
 span.toggle-button {
   color: #6c6c6c;
@@ -541,6 +575,8 @@ span.toggle-button {
   -webkit-box-pack: center;
   justify-content: center;
   display: flex;
+  border: none;
+  background-color: transparent;
 }
 .menu-trigger-dot > span.dot {
   height: 2px;
@@ -561,6 +597,8 @@ span.toggle-button {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
+  border: none;
+  background-color: transparent;
 }
 .share {
   width: 33%;
@@ -592,6 +630,8 @@ span.toggle-button {
   -webkit-box-align: center;
   align-items: center;
   display: flex;
+  border: none;
+  background-color: transparent;
 }
 .icon {
   margin-right: 8px;
@@ -620,6 +660,8 @@ span.toggle-button {
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
+  background-color: transparent;
+  border: none;
 }
 .share .share-button .icon {
   margin-right: 10px;
@@ -665,6 +707,7 @@ span.toggle-button {
 }
 .outstanding-content {
   flex: 1 1 auto;
+  margin-left: -10px;
 }
 .outstanding-title {
   font-size: 16px;
@@ -672,11 +715,14 @@ span.toggle-button {
   line-height: 1.2;
   margin-bottom: 8px;
   color: #2d3748;
+  margin-top: 0px;
+  margin-bottom: -7px;;
 }
 .name-outstanding {
   color: #2d3748;
   font-size: 13px;
   line-height: 18px;
+  margin-bottom: 2px;
 }
 p.criteria {
   color: #2d3748;
