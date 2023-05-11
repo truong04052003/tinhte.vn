@@ -62,7 +62,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  background-color: #ffffff;
+  background-color: #EDF2F7;
   -webkit-font-smoothing: antialiased;
 }
 html {
@@ -285,6 +285,7 @@ svg.logo-menu-header {
 .camera-spacex {
   max-width: 1144px;
   padding-left: 115px;
+  margin-left: 88px;
 }
 .section {
   margin-left: -20px;
@@ -299,6 +300,8 @@ svg.logo-menu-header {
 }
 .section.bg-white {
   padding-top: 25px;
+  width: 1146px;
+  border-radius: 8px;
 }
 
 .thread-info .avatar-people {
@@ -862,10 +865,9 @@ span.reaction-text {
   background-color: #9c2e83;
 }
 .right-camera {
-  width: 340px;
+  width: 350px;
   position: absolute;
-  right: 8%;
-  margin-right: 3px;
+  right: 12%;
 }
 .right-camera {
   padding-left: 20px;
