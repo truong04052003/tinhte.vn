@@ -3,7 +3,7 @@
   text-decoration: none;
 }
 body {
-  background-color: #f2f4f7;
+  background-color: #FFFFFF;
 }
 html {
   --box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, 0.12),
@@ -578,6 +578,8 @@ img.img-love {
   opacity: 0.8;
   overflow: hidden;
   padding: 50px 0px;
+  border: none;
+    background-color: transparent;
 }
 .video-icon {
   top: 6px;
@@ -847,6 +849,11 @@ img {
   margin: 5px auto;
   border-radius: 12px;
 }
+img.bbCodeImage-img {
+  display: block;
+  margin: 5px auto;
+  border-radius: 12px;
+}
 img.bbCodeImage {
   display: block;
   margin: 5px auto;
@@ -1101,6 +1108,52 @@ button.button-transfer {
 a.name-sp {
   color: #0768ea;
 }
+.load-more-container {
+  border-radius: 8px;
+  width: 108px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.button-light {
+  font-size: 16px;
+  color: #1570ef;
+  background-color: #e6f0fd;
+}
+.button {
+  text-align: center;
+  font-weight: 600;
+  border: none;
+}
+.load-more-icon {
+  font-size: 16px;
+}
+.fa-ellipsis-h:before {
+  content: "...";
+}
+.fa, .fas {
+  font-weight: 900;
+}
+.fa, .far, .fas {
+  font-family: Font Awesome\ 5 Free;
+}
+.fa, .fab, .fal, .far, .fas {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.load-more {
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
+
 /* footer  */
 .footer-ft {
   color: #222b45;
